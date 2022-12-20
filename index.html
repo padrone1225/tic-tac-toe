@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Tic Tac Toe</title>
+    <script type="module">
+        import TicTacToe from './assets/js/tictactoe.js'
+        window.addEventListener('DOMContentLoaded', () => {
+            new TicTacToe
+        })
+    </script>
+</head>
+
+<body>
+    <!-- -- Header -- -->
+    <header>
+        <h1>Tic Tac Toe</h1>
+    </header>
+    <!-- -- Main -- -->
+    <main id="main"></main>
+    <!-- -- Footer -- -->
+    <footer>Created By Ahkam for The Odin Project</footer>
+    <!-- -- Modal -- -->
+    <div id="modal">
+        <!-- -- Normal Game -- -->
+        <div id="normal_start"></div>
+        <!-- -- AI Game -- -->
+        <div id="ai_start"></div>
+        <!-- -- End Game -- -->
+        <div id="end_game"></div>
+    </div>
+</body>
+
+</html>
