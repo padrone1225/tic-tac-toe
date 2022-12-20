@@ -1,0 +1,22 @@
+:root {
+  --text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+  color-scheme: dark;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #666 radial-gradient(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.7));
+  color: #ccc;
+  min-height: 100vh;
+  text-shadow: var(--text-shadow);
+  font-size: 1rem;
+}
